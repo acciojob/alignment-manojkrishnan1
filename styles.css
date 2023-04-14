@@ -3,13 +3,8 @@ p{
     text-align: center;
     font-weight: 600;
 }
-img{
-    align-self: stretch;
-}
-#t-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#t-image>td{
+    text-align: center;
 }
 .middle{
     margin: auto;
@@ -25,7 +20,7 @@ img{
 }
 
 table{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid black;
     border-spacing: 1px;
 }
 
@@ -40,4 +35,10 @@ td{
 
 .blue{
     background-color: blue;
+}
+#table-1, #table-2, #table-3{
+    width: 100%;
+}
+#table-2, #table-3{
+    margin-top:50px;
 }
